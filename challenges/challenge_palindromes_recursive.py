@@ -20,6 +20,7 @@ Lógica a se pensar:
     palavra já foi percorrida e os valores validados
 """
 
+
 def is_palindrome_recursive(word, low_index, high_index):
     if not isinstance(word, str) or word == "":
         return False
