@@ -20,7 +20,7 @@ def string_sort(string):
 
 
 def equality_verify(word_1, word_2):
-    if(word_1 == '' or word_2 == ''):
+    if (word_1 == '' or word_2 == ''):
         return False
     return word_1 == word_2
 
@@ -34,4 +34,3 @@ def is_anagram(first_string, second_string):
         second_string_ordered,
         equality_verify(first_string_ordered, second_string_ordered)
     )
-
