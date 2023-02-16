@@ -7,5 +7,5 @@ def test_encrypt_message():
         encrypt_message(1, '')
 
     assert encrypt_message("EERRGG", 3) == "REE_GGR"
-    assert encrypt_message("EERRGG", -1) ==  "GGRREE"
+    assert encrypt_message("EERRGG", -1) == "GGRREE"
     assert encrypt_message("EERRGG", 4) == "GG_RREE"
